@@ -1,0 +1,20 @@
+{
+    "database": {
+        "host": "localhost",
+        "port": 5432,
+        "user": "username",
+        "password": "password",
+        "database": "news_db"
+    },
+    "news_scraper": {
+        "api_key": "your_api_key",
+        "base_url": "https://newsapi.org/v2/"
+    },
+    "ai_model": {
+        "model_path": "models/model.h5",
+        "tokenizer_path": "models/tokenizer.pkl"
+    },
+    "broadcast": {
+        "output_dir": "broadcasts/"
+    }
+}
